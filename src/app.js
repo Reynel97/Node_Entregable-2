@@ -78,6 +78,6 @@ app.get('/todos/:id', async (req, res) => {
     }
 })
 
-app.listen(PORT, ()=>{
+app.listen(PORT, () =>{
     console.log(`servidor corriendo en el puerto ${PORT}`)
 })
